@@ -1,0 +1,46 @@
+.header{
+    background-color: #fff;
+    position: fixed;
+    top:20px;
+    left: 50%;
+    transform: translateX(-50%);
+    width:calc(100% - 40px);
+    border-radius:15px;
+    z-index:999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 28px;
+}
+
+.header img{
+    height: 40px;
+}
+
+.nav-center ul {
+    display: flex;
+    gap: 2.5rem; /*representa 40px 16* 2.5 = 40px*/
+}
+
+.nav-center a,
+.nav-right a {
+    font-size:1.25rem; /*representa 20px*/
+}
+
+.nav-center a:hover,
+.nav-right a:hover {
+    color: #7c3aed;
+}
+
+.nav-right ul {
+    display:flex;
+    gap:2.5rem; /*representa 40px 16*2.5 = 40px*/
+    align-items:center;
+
+}
+
+.nav-right img{
+    height:20px;
+
+}
+

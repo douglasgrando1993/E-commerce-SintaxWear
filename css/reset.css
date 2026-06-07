@@ -59,6 +59,14 @@ a:not([class]) {
   color: currentColor;
 }
 
+a{
+  text-decoration: none;
+}
+
+ul,ol{
+  list-style:none;
+}
+
 img,
 picture,
 video,
